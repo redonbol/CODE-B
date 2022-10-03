@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1, h2 {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0 20px 10px;
+  }
+  .page {
+    width: 1303px;
+    margin: 65px
+  }
+  .heading {
+    width: 1310px;
+    margin-bottom: 50px 
+
+  }
+  img {
+    display: block;
+  }
+  .content {
+    margin-bottom: 50px 
+   
+  }
+  ul {
+    margin-left: 15px;
+  }
