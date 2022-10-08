@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .header {
+    background-color: #e0e045; 
+  }
+  .name {
+    color: white;
+    font-size: large;
+    padding: 30px;
+
+  }
+  .image {
+    background-image: url(images/tetrahedral_kite.jpg);
+    height: 500px;
+    background-size: contain;
+    
+  }
+  .menu-container {
+    background-color: #e0e045;
+    display:flex;
+    height: 55px;
+    align-items: center;
+  }
+  .about,
+  .project-1,
+  .project-2 {
+    color: white;
+  }
+
+  .about:visited,
+  .project-1:visited,
+  .project-2:visited {
+    color: gray;
+  }
+  .menu {
+    padding: 30px;
+
+  }
+  .text-block {
+    padding: 25px;
+    color: gray;
+  }  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e0e045;
+    align-items: center;
+    height: 100px;
+    font-size: larger;
+  }
+  .footer-item {
+    color: white;
+    padding: 30px;
+    display: flex;
+    
+  }
+
