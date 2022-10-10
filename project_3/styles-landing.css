@@ -29,14 +29,18 @@
   }
   .about,
   .project-1,
-  .project-2 {
+  .project-2,
+  .project-3,
+  .project-4 {
     color: white;
     text-decoration: none;
   }
 
   .about:visited,
   .project-1:visited,
-  .project-2:visited {
+  .project-2:visited,
+  .project-3:visited,
+  .project-4:visited {
     color: gray;
     
   }
