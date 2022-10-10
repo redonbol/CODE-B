@@ -17,8 +17,8 @@
   }
   .image {
     background-image: url(images/tetrahedral_kite.jpg);
-    height: 500px;
-    background-size: contain;
+    height: 1300px;
+    background-size: cover;
     
   }
   .menu-container {
@@ -31,12 +31,14 @@
   .project-1,
   .project-2 {
     color: white;
+    text-decoration: none;
   }
 
   .about:visited,
   .project-1:visited,
   .project-2:visited {
     color: gray;
+    
   }
   .menu {
     padding: 30px;
@@ -60,4 +62,7 @@
     color: white;
     padding: 30px;
     display: flex;
-    
+  }
+  .logo {
+    height: 35px;
+  }
