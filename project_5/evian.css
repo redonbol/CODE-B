@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 1200px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+  }
+  
+  a:link,
+  a:visited {
+    color: #E50043;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .header {
+    width: 100%;
+    padding: 50px;
+  
+    display: flex;
+    justify-content: space-between;
+  
+    position: fixed;
+    color: #E50043;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    z-index: 2;
+    
+    height: 140px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+  }
+
+  .menu > li {
+    margin-right: 50px;
+    display: inline;
+  }
+  
+  .menu > li:last-of-type {
+    margin-right: 0;
+  }
+
+  .image {
+    margin-top: 140px;
+    background-image: url(images/evian_origins_logo.png);
+    height: 1000px;
+    background-size: cover;
+    z-index: 1;
+  }
+
+  .hero-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .text {
+    position:absolute;
+    top: 750px;
+    display: flex;
+    
+    z-index: 1;
+    color: #E50043;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+  }
+
+  .pink-border {
+    background-color: white;
+    border: 3px solid #F8BFC7;
+    border-radius: 20px;
+    margin: 15px;
+    padding: 10px;
+    
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    margin: 200px;
+    
+    left: 201px;
+    top: 1240px;
+    box-sizing: border-box;
+  }
+
+  p {
+    padding: 30px;
+   }
+
+  .designs {
+    display: flex;
+    justify-content: space-between;
+    margin: 200px;
+    align-items: stretch;
+ 
+    flex: 1;
+    background-color: white;
+  
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    
+  }
+  .design-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .design-item > p {
+    padding: 50px;
+    display: flex;
+    
+    text-align: center;
+  }
+
+  .bottle {
+    padding: 80px;
+
+  }
+  .footer {
+    background-color: #F8BFC7; 
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    height: 140px;
+    padding: 50px;
+  }
+  
