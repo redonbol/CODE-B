@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }  
+  
+  a:link,
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .header {
+    width: 100%;
+    padding: 50px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+
+    background: #F8BFC7;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight:bold;
+  }
+
+  .header_box > li {
+    margin-left: 15px;
+    display: inline;
+  }
+  
+  .header_box > li:last-of-type {
+    margin-right: 0;
+  }
+
+  .form-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .main {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    background-image: url(images/background_1440.png);
+    background-size: cover;
+
+  }
+
+  .under-image {
+    background: #336FD1;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  .under-image > h1 {
+    display: flex;
+    color: #FEB700;
+    margin-top: 30px;
+    font-size: 50px;
+  }
+
+  .query {
+    display: flex;
+
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    margin-left: 90px;
+    width: 300px;
+
+    color: #FFFFFF;
+    background-color: #F8BFC7;
+    font-size: 20px;
+  
+    border: 3px;
+    border-color: #FFFFFF;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 15px 5px 10px 5px;
+  }
+  
+  .form-row input[type='text'] ,
+  .form-row input[type="email"] {
+    background-color: #F8BFC7;
+    width: 99%;
+    padding: 7px;
+    font-size: 14px;
+    border:none;
+    margin-top: 7px;
+    margin-left: 7px;
+    color: white;
+
+  }
+  
+  .form-row label {
+    margin: 10px 15px;
+    font-weight: bold;
+  }
+
+  .form-row input[type="text"]:invalid,
+  .form-row input[type="email"]:invalid {
+    border: 1px solid #D55C5F;
+    color: #D55C5F;
+    box-shadow: none; /* Удалим красную подсветку по умолчанию в Firefox */
+  }
+  .form-row ::placeholder {
+    color: white;
+    width: 100%;
+    padding: 7px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1px;
+
+  }
+  .line {
+    border-bottom: solid 1px white;
+    margin: 0 10px 10px 14px;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+    color: #FFFFFF;
+    background-color: #FEB700;
+  
+    border: 3px;
+    border-color: #FFFFFF;
+    border-radius: 30px;
+    border-style: solid;
+    
+    margin-left: 90px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    cursor: pointer;
+
+  }
+  .form-row button:hover {
+    background-color: #FEB700;
+  }
+  
+  .form-row button:active {
+    background-color: #f1eeee;
+  }
+
+  .footer {
+    background: #F8BFC7;
+    color: white;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    display: flex;
+    padding: 50px;
+    font-weight:bold;
+
+  }
+
+
