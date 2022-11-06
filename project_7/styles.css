@@ -4,39 +4,33 @@
     box-sizing: border-box;  
     font-family: 'Times New Roman';
   }
-  .page {
-    display: flex;
-    flex-wrap: wrap;
-  }
+
   .header, 
   .footer {
     background-color: #FFE138; 
     color: black;
     height: 160px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 50px; 
-    
   }
 
 
   .columns-container {
     display: flex;
     justify-content: space-between;
-    
+    padding: 45px;
   }
   
   .columns-container-item {
     flex: 1;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 15px;
     
     font-style: normal;
     font-size: 20px;
-    height:fit-content;
-    
+    height: fit-content;
   }
 
   h1 {
@@ -46,6 +40,7 @@
 
   p {
    padding: 20px;
+   text-align: center;
   }
 
   .photo img {
@@ -55,10 +50,12 @@
       
  @media only screen and (min-width: 961px) {
     .page {
-        width: 960px;
-         margin: 0 auto;
+      display: block;
+      margin: 0 auto;
     }
 
+    .header,
+    .footer {
+      width: auto;
+    }
  }
- 
- 
