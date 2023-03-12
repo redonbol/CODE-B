@@ -17,10 +17,11 @@
   }
 
 
+
   .columns-container {
     display: flex;
     justify-content: space-between;
-    padding: 45px;
+    padding: 5px;
   }
   
   .columns-container-item {
@@ -35,12 +36,11 @@
 
   h1 {
    font-size: 20px;
-   padding: 20px;
+   padding: 10px;
   }
 
   p {
-   padding: 20px;
-   text-align: center;
+   padding: 10px;
   }
 
   .photo img {
@@ -53,9 +53,29 @@
       display: block;
       margin: 0 auto;
     }
+  }
 
     .header,
     .footer {
       width: auto;
     }
- }
+    @media only screen and (max-width: 400px) {
+     
+      .header,
+      .footer {
+        width: auto;
+    }
+  }
+    /* Макет для планшетов */
+    @media only screen and (min-width: 401px) and (max-width: 960px) {
+      .page {
+        display: block;
+        margin: 0 auto;
+      }
+  
+      .header,
+      .footer {
+        width: 100%;
+      }
+
+    }

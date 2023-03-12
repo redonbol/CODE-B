@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Семантическая верстка</title>
+  </head>
+  <body>
+    <header>
+      <h1>Moscow Coding School</h1>
+      <nav> 
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Блог</a></li>
+          <li><a href="#">Подписаться</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <header>
+        <h1>Семантическая верстка</h1>
+        <p>Moscow Coding School. Опубликовано <time datetime="2020-12-5">5-ого декабря</time></p>
+      </header>    
+      
+      <aside class="advert">
+        <img src="some-advert-image.png"/>
+      </aside>
+
+      <p>Это пример веб-страницы, на которой рассказывается про семантическую верстку.</p>
+      <section>
+        <h2>Схема документа</h2>
+        <p>В HTML5 есть несколько секционных элементов, которые влияют на схему документа.</p>
+    
+        <h3>Хэдеры</h3>
+        <p>Элемент <code><header></code> является одним из секционных элементов.</p>
+      </section>
+        <h3>Футеры</h3>
+        <p>Элемент <code><footer></code> тоже секционный.</p>
+      <section>
+        <h2>Строчная семантическая верстка</h2>
+       
+        <p>Элемент <code><time></code> является семантическим, но при этом он не секционный.</p>
+      </section>
+      <footer>
+        <p>Это было написано кем-то из Moscow Coding School. Этот футер предназначен только для элемента <code><article></code>.</p>
+        <address>
+            Можете связаться с нами тут <a href="mailto:mcs@example.com">Moscow Coding School</a>.
+        </address>
+      </footer>
+    </article>
+    <footer> 
+      <p>2020 Moscow Coding School</p>
+    </footer> 
+    <aside class="sidebar">
+        <h2>Сайдбар</h2>
+        <p>Контент для сайдбара</p>
+        <nav>
+          <h3>Верстка на HTML и CSS</h3>
+          <ul>
+            <li><a href="#">Введение</a></li>
+            <li><a href="#">Базовые веб-страницы</a></li>
+            <li><a href="#">И так далее...</a></li>
+          </ul>
+        </nav>
+        <nav>
+          <h3>Курс JavaScript</h3>
+          <ul>
+            <li><a href="#">Введение</a></li>
+            <li><a href="#">Привет, JavaScript</a></li>
+            <li><a href="#">И так далее...</a></li>
+          </ul>
+        </nav>
+    </aside>
+  </body>
+</html>

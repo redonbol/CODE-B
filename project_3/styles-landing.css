@@ -17,7 +17,7 @@
   }
   .image {
     background-image: url(images/tetrahedral_kite.jpg);
-    height: 1300px;
+    height: 900px;
     background-size: cover;
     
   }
@@ -51,16 +51,16 @@
   .text-block {
     padding: 25px;
     color: gray;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
   }  
   .footer {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     background-color: #e0e045;
     align-items: center;
     height: 100px;
-    font-size: larger;
+    
   }
   .footer-item {
     color: white;
@@ -68,5 +68,5 @@
     display: flex;
   }
   .logo {
-    height: 35px;
+    height: 25px;
   }
